@@ -70,9 +70,9 @@ class factura extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(factura $request)
     {
-        //
+        return $request;
     }
 
     /**
